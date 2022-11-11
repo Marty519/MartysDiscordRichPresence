@@ -1,5 +1,5 @@
 
-# ReadMe File is the instructions.
+-- ReadMe File is the instructions.
 
 
 Citizen.CreateThread(function()
