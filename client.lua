@@ -1,21 +1,25 @@
+
+# ReadMe File is the instructions.
+
+
 Citizen.CreateThread(function()
 	while true do
         -- This is the Application ID (Replace this with you own)
-		SetDiscordAppId(1022725020570636368)
+		SetDiscordAppId()
 
         -- Here you will have to put the image name for the "large" icon.
-		SetDiscordRichPresenceAsset('panama_logo_full')
+		SetDiscordRichPresenceAsset('')
         
         -- (11-11-2018) New Natives:
 
         -- Here you can add hover text for the "large" icon.
-        SetDiscordRichPresenceAssetText('Panama CityRP')
+        SetDiscordRichPresenceAssetText('')
        
         -- Here you will have to put the image name for the "small" icon.
-        SetDiscordRichPresenceAssetSmall('panama_logo_full')
+        SetDiscordRichPresenceAssetSmall('')
 
         -- Here you can add hover text for the "small" icon.
-        SetDiscordRichPresenceAssetSmallText('200+ Cars, Active Staff and LEO!')
+        SetDiscordRichPresenceAssetSmallText('')
 
 
         -- (26-02-2021) New Native:
@@ -25,8 +29,8 @@ Citizen.CreateThread(function()
             First paramater is the button index (0 or 1), second is the title and 
             last is the url (this has to start with "fivem://connect/" or "https://") 
         ]]--
-        SetDiscordRichPresenceAction(0, "Join Our FiveM Server!", "fivem://connect/kl74dv")
-        SetDiscordRichPresenceAction(1, "Join Our Discord!", "https://discord.gg/UmMkvtY3nq")
+        SetDiscordRichPresenceAction(0, "Button Text 1", "Button 1 Link")
+        SetDiscordRichPresenceAction(1, "Button Text 2", "Button 2 Link")
 
         -- It updates every minute just in case.
 		Citizen.Wait(60000)
